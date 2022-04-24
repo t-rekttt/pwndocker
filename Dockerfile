@@ -42,6 +42,7 @@ RUN dpkg --add-architecture i386 && \
     bison \
     rpm2cpio cpio \
     zstd \
+    nano \
     tzdata --fix-missing && \
     rm -rf /var/lib/apt/list/*
 
