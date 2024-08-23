@@ -2,7 +2,7 @@ version: '3'
 services:
     pwn:
         container_name: pwn_test
-        image: skysider/pwndocker
+        image: tuvietthao/pwndocker
         security_opt:
             - seccomp:unconfined
         cap_add:
