@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       env:
-        image_name: skysider/pwndocker
+        image_name: tuvietthao/pwndocker
         tag: latest
         pwntools_version: 4.11.0
       run: |
